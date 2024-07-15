@@ -36,11 +36,12 @@ a, .main-subtext {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 210px;
+    padding-bottom: 40px;
 }
 
 .main-content {
-    width: 520px;
+    width: 450px;
     margin: 60px 0px;
 }
 
@@ -68,13 +69,120 @@ a, .main-subtext {
 .main-image {
     background-color: rgb(123, 141, 154);
     color: #ffffff;
+    width: 340px;
     padding: 110px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 20px;
+}
+
+.info-content {
+    display: flex;
+    margin: 20px;
+}
+
+.info-spot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.info-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+    margin: 10px;
+}
+
+.info-subtext {
+    width: 200px;
+    text-wrap: wrap;
+    text-align: center;
+    color: rgb(123, 141, 154);
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 120px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+.quote-ref {
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 500px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 20px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 4px;
+    padding: 30px 80px;
+    gap: 160px;
+}
+
+.cta-title {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cta-subtext {
+    color: #e5e7eb;
+}
+
+.cta-button {
+    color: #e5e7eb;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 30px;
+    margin: 10px 0px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #ffffff;
-    padding: 12px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
